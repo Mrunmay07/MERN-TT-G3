@@ -1,0 +1,22 @@
+html{
+    font-size: 40px;
+}
+
+.container{
+    
+    background-color: coral;
+    font-size: 40px;
+    width: 50vh;
+    height: 50vw;
+}
+
+.box{
+    background-color: chartreuse;
+   /*  width:3em;
+   height: 2em;
+    margin: 2em;
+    padding: 2em;
+    border: 2em solid black;
+    font-size:3em; */
+    
+}

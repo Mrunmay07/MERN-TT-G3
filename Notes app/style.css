@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+.note-card{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 3rem;
+}

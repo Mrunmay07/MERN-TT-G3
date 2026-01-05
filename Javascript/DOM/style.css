@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 80px;
+    height: 80px;
+    background-color: coral;
+    font-size: 2rem;
+    color: white;
+}
+
+.active{
+    background-color: green;
+    padding: 3rem;
+    color: white;
+}

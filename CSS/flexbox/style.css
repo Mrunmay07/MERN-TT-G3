@@ -1,0 +1,30 @@
+
+.container{
+    background-color: coral;
+   display: flex;
+   
+   /* justify-content: start; */
+   height: 500px;
+   justify-content: space-between;
+   align-items:center;
+    /* flex-wrap: wrap; */
+    flex-direction: column-reverse;
+    
+}
+
+.container span{
+    background-color: skyblue;
+    width: 300px;
+}
+
+.container p{
+    background-color: chartreuse;
+    width: 400px;
+ 
+}
+
+.container a{
+    background-color: pink;
+    width: 300px;
+    
+}

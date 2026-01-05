@@ -1,0 +1,27 @@
+/* element selectors */
+
+/* class selectors */
+.head{
+    background-color: yellow;
+}
+
+/* id selectors */
+#head-2{
+    background-color: blue;
+
+}
+
+/* attributes selectors */
+[data-name="akash"]{
+    background-color: greenyellow;
+}
+
+/* descendant selector */
+.parent > p{
+    color: red;
+}
+
+/* Grouping selector */
+h1 , h2 , h3 , p{
+    color: blue;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* p{
+    background-color: chartreuse;
+    position: relative;
+   top: 100px;
+   
+}
+ */
+.parent{
+    background-color: coral;
+    position: relative;
+    width: 600px;
+    height: 500px;
+}
+
+h1{
+   position: absolute;
+   right: 100px;
+}
+
+h2{
+    position: absolute;
+    bottom: 100px;
+}
+
+p{
+    position: absolute;
+    top:300px;
+}
+
+span{
+    position: absolute;
+    left: 200px;
+}
