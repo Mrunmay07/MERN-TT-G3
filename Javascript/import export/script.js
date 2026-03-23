@@ -1,4 +1,3 @@
-import add  from "./data.js"
+import add from "./data.js";
 
-
-add(2 , 2)
+add(2 , 4)

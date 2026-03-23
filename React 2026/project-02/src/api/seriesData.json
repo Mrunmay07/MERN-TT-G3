@@ -1,0 +1,63 @@
+
+[
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "image": "https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg",
+    "genre": ["Sci-Fi", "Horror", "Drama"],
+    "rating": 8.7,
+    "year": 2016,
+    "seasons": 4,
+    "description": "A group of kids uncover supernatural mysteries in their small town after a boy mysteriously disappears."
+  },
+  {
+    "id": 2,
+    "title": "Money Heist",
+    "image": "https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
+    "genre": ["Crime", "Thriller"],
+    "rating": 8.2,
+    "year": 2017,
+    "seasons": 5,
+    "description": "A criminal mastermind known as The Professor plans the biggest heist in history."
+  },
+  {
+    "id": 3,
+    "title": "Dark",
+    "image": "https://image.tmdb.org/t/p/w500/apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg",
+    "genre": ["Sci-Fi", "Mystery"],
+    "rating": 8.8,
+    "year": 2017,
+    "seasons": 3,
+    "description": "A time-travel mystery unfolds when children start disappearing in a German town."
+  },
+  {
+    "id": 4,
+    "title": "The Witcher",
+    "image": "https://image.tmdb.org/t/p/w500/cZ0d3rtvXPVvuiX22sP79K3Hmjz.jpg",
+    "genre": ["Fantasy", "Action"],
+    "rating": 8.0,
+    "year": 2019,
+    "seasons": 3,
+    "description": "Geralt of Rivia, a monster hunter, struggles to find his place in a world of magic and political intrigue."
+  },
+  {
+    "id": 5,
+    "title": "Wednesday",
+    "image": "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
+    "genre": ["Comedy", "Mystery"],
+    "rating": 8.1,
+    "year": 2022,
+    "seasons": 1,
+    "description": "Wednesday Addams investigates a murder mystery at Nevermore Academy."
+  },
+  {
+    "id": 6,
+    "title": "Squid Game",
+    "image": "https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+    "genre": ["Thriller", "Drama"],
+    "rating": 8.0,
+    "year": 2021,
+    "seasons": 1,
+    "description": "Hundreds of players compete in deadly childhood games for a massive cash prize."
+  }
+]
