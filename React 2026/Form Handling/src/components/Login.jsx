@@ -9,7 +9,7 @@ function Login(){
 
     const handleChange = (e) => {
         const  {name , value} = e.target
-        setUser((prev) => ({ ...prev, [name] : value}) )
+        setUser((prev) => ({ ...prev    , [name] : value}) )
 
     }
 
