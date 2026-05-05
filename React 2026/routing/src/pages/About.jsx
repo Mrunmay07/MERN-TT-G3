@@ -1,7 +1,11 @@
-function About(){
-    return(
-        <h1>About PAGE</h1>
-    )
+import Header from "../components/layout/Header";
+
+function About() {
+  return (
+    <>
+      <h1>About PAGE</h1>
+    </>
+  );
 }
 
-export default About
+export default About;

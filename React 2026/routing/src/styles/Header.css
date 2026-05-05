@@ -18,3 +18,7 @@
 .nav-links li a{
     color: white;
 }
+
+ul li .active{
+    color: orange;
+}
