@@ -1,5 +1,4 @@
 // This is Component
-
 import { createStore } from "redux"
 
 // actions define
@@ -26,17 +25,27 @@ function reducer(state = initialState,action){
 }
 
 // Creating a Global Store
-const store = createStore(reducer)
+export const store = createStore(reducer)
 console.log(store) // Object
 
 store.subscribe(() => {
     console.log(store.getState())
 })
 
-store.dispatch({type:ADD_TASK , payload:'Coding'})
+//action creators
+export function addTask(data){
+    return {type:ADD_TASK , payload:data}
+}
 
-store.dispatch({type:ADD_TASK , payload:'Gaming'})
+export function deleteTask(id){
+    return {type:DELETE_TASK , payload:id}
+}
 
-store.dispatch({type:ADD_TASK , payload:'Cooking'})
 
-store.dispatch({type:DELETE_TASK , payload:1})
+store.dispatch(addTask('Coding'))
+
+store.dispatch(addTask('Gaming'))
+
+store.dispatch(addTask('Cooking'))
+
+store.dispatch(deleteTask(1))
